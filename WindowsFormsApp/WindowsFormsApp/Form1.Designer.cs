@@ -51,6 +51,7 @@
             this.txtTelegrama.Name = "txtTelegrama";
             this.txtTelegrama.Size = new System.Drawing.Size(262, 20);
             this.txtTelegrama.TabIndex = 1;
+            this.txtTelegrama.TextChanged += new System.EventHandler(this.txtTelegrama_TextChanged);
             // 
             // cbUrgente
             // 
